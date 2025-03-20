@@ -1,0 +1,33 @@
+name: Iris Dataset
+description: Classic dataset for classification tasks, containing measurements of Iris flowers for three species (setosa, versicolor, virginica).
+contributors:
+  - name: iris_classifier
+data:
+  - name: Iris Measurements
+    description: Contains sepal and petal measurements (in centimeters) and species labels for 150 Iris flowers.
+    path: data/IRIS (1).csv
+    format: csv
+    size: 4.3 KB  # Actual size may vary slightly
+    fields:
+      - name: sepal_length
+        description: Length of the sepal (cm)
+      - name: sepal_width
+        description: Width of the sepal (cm)
+      - name: petal_length
+        description: Length of the petal (cm)
+      - name: petal_width
+        description: Width of the petal (cm)
+      - name: species
+        description: Iris species (Iris-setosa, Iris-versicolor, Iris-virginica)
+license:
+  - name: Public Domain (CC0 1.0 Universal)  
+    link: https://creativecommons.org/publicdomain/zero/1.0/
+references:
+  - name: Kaggle Dataset
+    link: https://www.kaggle.com/datasets/arshid/iris-flower-dataset 
+  - name: UCI Machine Learning Repository
+    link: https://archive.ics.uci.edu/ml/datasets/iris
+  - name: Wikipedia - Iris Dataset
+    link: https://en.wikipedia.org/wiki/Iris_flower_data_set
+  - dataset drive-link:
+     https://drive.google.com/file/d/1EsSUjQbyi94TNMdZJGGokA9uYeaIT7vk/view?usp=drive_link
